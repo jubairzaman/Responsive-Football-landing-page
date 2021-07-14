@@ -8,10 +8,10 @@ body{
     justify-content: center;
 }
 .banner:hover .topbanner-img img {
-    transform: translate(-100px);
+    transform: translate(-80px);
 }
 .banner:hover .banner-info{
-    transform: translate(100px);
+    transform: translate(70px);
 }
 
 
@@ -25,7 +25,7 @@ body{
     
 }
 .banner-info{
-    margin-left: 130px;
+    margin-left: 50px;
     transition: transform 1s;
 }
 .banner-info h1{
@@ -51,7 +51,7 @@ body{
     width: 556px;
     height: 438px;
     margin-left: 100px;
-    transition: transform 2s ;
+    transition: transform 1s ;
     
 
 }
@@ -128,6 +128,9 @@ main .middle-part{
     border-radius: 5px;
     background-color: rgba(255, 151, 151, 0.562);
     color: rgb(255, 35, 35);
+}
+.livesport{
+    display: none;
 }
 hr{
     margin-left: 20px;
@@ -263,8 +266,6 @@ footer small {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-    margin-top: 50px;
     box-shadow: none;
     
 
@@ -304,6 +305,11 @@ footer small {
 }
 .livesport{
     margin-top: 20px;
+    display: contents;
+   
+}
+.livesport2{
+    display: none;
 }
 hr{
     
@@ -358,7 +364,192 @@ footer img{
     height: 63px;
 
 }
+footer{
+    margin-top: 20px;
+}
+
+}
+
+/* I Pad Part  */
+@media only screen and (min-width:688px) and (max-width:992px) {
 
 
+    /* header section  */
+
+    
+
+    .banner{
+        background-color:#2D25A0 ;
+        justify-content: center;
+        height: 677px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        
+    }
+    .banner:hover .topbanner-img img {
+        transform: translate(-50px);
+    }
+    .banner:hover .banner-info{
+        transform: translate(30px);
+    }
+   
+    .banner-info{
+        height: 300px;
+        margin-left: -120px;
+        margin-top: -10px;
+        transition: transform 1s;
+        
+        
+        
+    }
+    .banner-info h1{
+        width: 300px;
+        height: 150px;
+        color: #FFFFFF;
+        font-size: 45px;
+        line-height: 50px;
+        
+    
+    }
+    
+    .banner-info a{
+        padding: 10px 24px;
+        background-color:#E02C6D ;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #FFFFFF;
+        
+        
+    
+    }
+    
+    .topbanner-img img{
+        width: 400px;
+        height: 300px;
+        margin-left: 400px;
+        transition: transform 1s;
+       
+        
+        
+    
+    }
+
+
+
+/* All player Section */
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* Extra part Section  */
+
+.extra-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: none;
+    
+
+}
+.live-score{
+    display: flex;
+    width: 500px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+
+    
+
+
+}
+.league-details{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   margin-left: -1px;
+  
+
+   
+   
+}
+.league-details h2 {
+    text-align: center;
+    
+}
+
+.live{ 
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 151, 151, 0.562);
+    color: rgb(255, 35, 35);
+}
+.livesport{
+    margin-top: 20px;
+    display: none;
+
+   
+}
+.livesport2{
+    display:contents;
+}
+hr{
+    
+    color: rgb(255, 35, 35);
+    margin-left: -2px;
+    
+}
+.score-section .score h1{
+    font-size: 2px;
+}
+.date-time{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+  
+}
+.date-time span{
+    text-align: center;
+}
+
+.score-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    
+    
+
+}
+.score-section img {
+    width: 70px;
+    height: 40px;
+    margin-left: -50px;
+   
+
+}
+.score-section .score{
+    display: flex;
+    margin-left: -40px;
+    
+}
+
+.score-section .score h1{
+    font-size: 40px;
+    
+}
+
+/* footer section  */
+
+footer img{
+
+    width: 271px;
+    height: 63px;
+
+}
+footer{
+    margin-top: 20px;
+}
 
 }
