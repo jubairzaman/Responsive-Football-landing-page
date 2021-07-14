@@ -1,0 +1,189 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top-Banner */
+.topbanner{
+    align-items: center;
+    justify-content: center;
+}
+.banner:hover .topbanner-img img {
+    transform: translate(-100px);
+}
+.banner:hover .banner-info{
+    transform: translate(100px);
+}
+
+
+.banner{
+    background-color:#2D25A0 ;
+    justify-content: center;
+    height: 677px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+.banner-info{
+    margin-left: 130px;
+    transition: transform 1s;
+}
+.banner-info h1{
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 80px;
+    margin-left: 156px;
+
+}
+.banner-info a{
+    padding: 10px 24px;
+    background-color:#E02C6D ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-left: 156px;
+
+}
+.topbanner-img img{
+    width: 556px;
+    height: 438px;
+    margin-left: 100px;
+    transition: transform 2s ;
+    
+
+}
+
+/* Middle Part  */
+main .middle-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player-box{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.player-details{
+    width: 300px;
+    height: 426px;
+    margin: 15px;
+}
+.player-details img{
+    width: 300px;
+    height: 256px;
+
+}
+.player-info{
+    width: 100%;
+    height: 100%;
+}
+
+/* Extra part  */
+.extra-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.live-score{
+    display: flex;
+    width: 600px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 100px;
+    
+
+
+}
+.league-details{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   margin-left: 60px;
+
+   
+   
+}
+.league-details h2 {
+    text-align: center;
+    
+}
+
+.live{ 
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 151, 151, 0.562);
+    color: rgb(255, 35, 35);
+}
+hr{
+    margin-left: 20px;
+    color: rgb(255, 35, 35);
+    
+}
+.date-time{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+  
+}
+.date-time span{
+    text-align: center;
+}
+
+.score-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+.score-section img {
+    width: 100px;
+    height: 70px;
+    margin-top: 40px;
+
+}
+.score-section .score{
+    display: flex;
+    margin-left: 25px;
+}
+
+.score-section .score h1{
+    font-size: 50px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+}
+footer small {
+    font-size: 18px;
+}
+.fab{
+    color:gray ;
+    
+}
