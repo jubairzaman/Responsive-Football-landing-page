@@ -187,3 +187,178 @@ footer small {
     color:gray ;
     
 }
+
+/* media query */
+/* Mobile Device  */
+
+@media only screen and (max-width:688px) {
+
+
+    /* header section  */
+
+    .banner{
+        background-color:#2D25A0 ;
+        justify-content: center;
+        height: 677px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        
+    }
+    .banner:hover .topbanner-img img {
+        transform: translate(-50px);
+    }
+    .banner:hover .banner-info{
+        transform: translate(30px);
+    }
+    .banner-info{
+        height: 300px;
+        margin-left: -120px;
+        margin-top: -10px;
+        transition: transform 1s;
+        
+        
+    }
+    .banner-info h1{
+        width: 300px;
+        height: 150px;
+        color: #FFFFFF;
+        font-size: 45px;
+        line-height: 50px;
+        
+    
+    }
+    
+    .banner-info a{
+        padding: 10px 24px;
+        background-color:#E02C6D ;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #FFFFFF;
+        
+        
+    
+    }
+    
+    .topbanner-img img{
+        width: 300px;
+        height: 250px;
+        transition: transform 1s;
+        
+        
+    
+    }
+
+
+
+/* All player Section */
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+/* Extra part Section  */
+
+.extra-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    margin-top: 50px;
+    box-shadow: none;
+    
+
+}
+.live-score{
+    display: flex;
+    width: 300px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+
+    
+
+
+}
+.league-details{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   margin-left: -1px;
+  
+
+   
+   
+}
+.league-details h2 {
+    text-align: center;
+    
+}
+
+.live{ 
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 151, 151, 0.562);
+    color: rgb(255, 35, 35);
+}
+.livesport{
+    margin-top: 20px;
+}
+hr{
+    
+    color: rgb(255, 35, 35);
+    margin-left: -2px;
+    
+}
+.score-section .score h1{
+    font-size: 2px;
+}
+.date-time{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+  
+}
+.date-time span{
+    text-align: center;
+}
+
+.score-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    
+    
+
+}
+.score-section img {
+    width: 70px;
+    height: 40px;
+    margin-left: -50px;
+   
+
+}
+.score-section .score{
+    display: flex;
+    margin-left: -40px;
+    
+}
+
+.score-section .score h1{
+    font-size: 40px;
+    
+}
+
+/* footer section  */
+
+footer img{
+
+    width: 271px;
+    height: 63px;
+
+}
+
+
+
+}
